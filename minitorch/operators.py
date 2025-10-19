@@ -148,6 +148,7 @@ def reduce(fn: Callable[[T, T], T], it: Iterable[T], start: T) -> T:
         acc = fn(acc, v)
     return acc
 
+
 def negList(ls: Iterable[float]) -> List[float]:
     return map(neg, ls)
 

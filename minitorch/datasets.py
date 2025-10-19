@@ -73,7 +73,7 @@ def spiral(N):
 
     def y(t):
         return t * math.sin(t) / 20.0
-    
+
     half = N // 2
     idx_range = range(5, 5 + half)
 
